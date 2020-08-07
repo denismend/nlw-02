@@ -32,7 +32,7 @@ function TeacherForm() {
 
   function handleAddNewScheduleItem() {
     setScheduleItems([...scheduleItems, {
-      week_day: 0,
+      week_day: Math.floor(Math.random() * 6),
       from: '',
       to: ''
     }]);
