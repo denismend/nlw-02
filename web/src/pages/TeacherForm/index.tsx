@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
@@ -10,6 +10,19 @@ import warningIcon from '../../assets/images/icons/warning.svg';
 import './styles.css';
 
 function TeacherForm() {
+  const [scheduleItems, setScheduleItems] = useState([
+    { week_day: 0, from: '8:00 AM', to: '16:00 PM' },
+    { week_day: 2, from: '8:00 AM', to: '16:00 PM' }
+  ]);
+
+  function handleAddNewScheduleItem() {
+    setScheduleItems([...scheduleItems, {
+      week_day: 0,
+      from: '',
+      to: ''
+    }]);
+  }
+
   return (
     <div id="page-teacher-form" className="container">
       <PageHeader
@@ -55,10 +68,43 @@ function TeacherForm() {
 
         </fieldset>
 
+        <fieldset>
+          <legend>
+            Horários disponíveis
+            <button type="button" onClick={handleAddNewScheduleItem}>
+              + Novo Horário
+            </button>
+          </legend>
+
+          {scheduleItems.map(scheduleItem => {
+            return (
+              <div key={scheduleItem.week_day} className="schedule-item">
+                <Select
+                  name="week_day"
+                  label="Dia da semana"
+                  options={[
+                    { value: '0', label: 'Domingo'},
+                    { value: '1', label: 'Segunda-Feira'},
+                    { value: '2', label: 'Terça-Feira'},
+                    { value: '3', label: 'Quarta-Feira'},
+                    { value: '4', label: 'Quinta-Feira'},
+                    { value: '5', label: 'Sexta-Feira'},
+                    { value: '6', label: 'Sábado'}
+                  ]}
+                />
+
+                <Input name="from" label="Das" type="time" />
+                <Input name="to" label="Até" type="time"/>
+              </div>
+            )
+          })}
+
+        </fieldset>
+
         <footer>
           <p>
             <img src={warningIcon} alt="Aviso importante" />
-            Important <br />
+            Importante <br />
             Preencha todos os dados
           </p>
 
