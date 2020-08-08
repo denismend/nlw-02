@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 
 const styles = StyleSheet.create({
   container: {
