@@ -1,9 +1,12 @@
 import React from 'react';
-import { View, Image, Text } from 'react-native';
+import { View, Image, Text, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
 import landingImg from '../../assets/images/landing.png';
+import studyIcon from '../../assets/images/study.png';
+import giveClassesIcon from '../../assets/images/give-classes.png';
+import heartIcon from '../../assets/images/heart.png';
 
 function Landing() {
   return (
@@ -16,8 +19,24 @@ function Landing() {
       </Text>
 
       <View style={styles.buttonContainer}>
-        
+        <TouchableOpacity style={[styles.button, styles.buttonPrimary]}>
+          <Image source={studyIcon} />
+
+          <Text style={styles.buttonText}>Estudar</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={[styles.button, styles.buttonSecondary]}>
+          <Image source={giveClassesIcon} />
+
+          <Text style={styles.buttonText}>Dar aulas</Text>
+        </TouchableOpacity>
       </View>
+
+      <Text style={styles.totalConnections}>
+        Total de 285 conexões já realizadas {' '}
+        <Image source={heartIcon}/>
+      </Text>
+
     </View>
   )
 }
