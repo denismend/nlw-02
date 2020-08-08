@@ -14,6 +14,10 @@ function Landing() {
         Seja bem-vindo, {'\n'}
         <Text style={styles.titleBold}>O que deseja fazer ?</Text>
       </Text>
+
+      <View style={styles.buttonContainer}>
+        
+      </View>
     </View>
   )
 }
