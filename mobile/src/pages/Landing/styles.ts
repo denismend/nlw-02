@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,6 +15,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
+    fontFamily: 'Poppins_400Regular',
     color: '#FFF',
     fontSize: 20,
     lineHeight: 30,
@@ -21,7 +23,7 @@ const styles = StyleSheet.create({
   },
 
   titleBold: {
-    fontWeight: 'bold'
+    fontFamily: 'Poppins_600SemiBold'
   }
 
 });
