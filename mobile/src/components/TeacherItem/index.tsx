@@ -8,29 +8,43 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.png';
 import styles from './styles';
 import { RectButton } from 'react-native-gesture-handler';
 
-const TeacherItem: React.FC = () => {
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({teacher}) => {
   return (
     <View style={styles.container}>
       <View style={styles.profile}>
         <Image 
           style={styles.avatar}
-          source={{ uri: 'https://avatars3.githubusercontent.com/u/22669861?s=460&u=67e97bd921bec8ac654f1d9b8ab3f9a16e59bdb3&v=4'}}
+          source={{ uri: teacher.avatar}}
         />
 
         <View style={styles.profileInfo}>
-          <Text style={styles.name}>Denis Ladeira</Text>
-          <Text style={styles.subject}>Matemática</Text>
+          <Text style={styles.name}>{teacher.name}</Text>
+          <Text style={styles.subject}>{teacher.subject}</Text>
         </View>
       </View>
 
       <Text style={styles.bio}>
-        Teste Teste Teste Teste Teste Teste 
+        {teacher.bio}
       </Text>
 
       <View style={styles.footer}>
         <Text style={styles.price}>
           Preço/Hora: {'   '}
-          <Text style={styles.priceValue}>R$ 20,00</Text> 
+          <Text style={styles.priceValue}>R$ {teacher.cost}</Text> 
         </Text>
 
         <View style={styles.buttonsContainer}>
