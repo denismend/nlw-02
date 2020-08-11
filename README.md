@@ -1,5 +1,4 @@
-# nlw-02
-Next Level Week 02. Rocketseat
+:rocket: Next Level Week 02. Rocketseat
 
 <p align="center">
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
@@ -39,20 +38,12 @@ Next Level Week 02. Rocketseat
 
 # :pushpin: Table of Contents
 
-* [Demo Website](#eyes-demo-website)   
 * [Technologies](#computer-technologies)
 * [Features](#rocket-features)
 * [How to Run](#construction_worker-how-to-run)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
 * [License](#closed_book-license)
-
-# :eyes: Demo Website
-You can acess the website at:     
-👉  demo: https://proffy-rafa.netlify.app/ 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://app.netlify.com/sites/proffy-rafa/deploys)      
-
 
 # :computer: Technologies
 This project was made using the follow technologies:
