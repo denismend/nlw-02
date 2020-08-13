@@ -1,5 +1,3 @@
-:rocket: Next Level Week 02. Rocketseat
-
 <p align="center">
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
@@ -19,13 +17,15 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
 </p>
 
-> :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+<p align="center">
+   :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+</p>
 
 <p align="center">
     <a href="README.md">English</a>
     ·
     <a href="README-pt.md">Portuguese</a>
- </p>
+</p>
 
 <div align="center">
   <sub>The NLW #2 Proffy project. Built with ❤︎ by
@@ -35,6 +35,11 @@
     </a>
   </sub>
 </div>
+
+
+<p align="center">
+  <img src=".github/sample.gif">
+</p>
 
 # :pushpin: Table of Contents
 
