@@ -120,7 +120,24 @@ Feel free to **file a new issue** with a respective title and description on the
 
 # :tada: Contributing
 
-Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+There are many forms to contribute with the project, first of all you can give this github repo a Star.
+
+If you want do help with the code follow the steps bellow
+
+```ps
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+$ gh repo fork denismend/nlw202-proffy
+# Clone your fork
+$ git clone {your-fork-url}
+$ cd proffy
+# Create a branch with your feature
+$ git checkout -b {branch-name}
+# Make the commit with your changes
+$ git commit -m 'Feat: {feature-name}'
+# Send the code to your remote branch
+$ git push origin {branch-name}
+```
 
 # :closed_book: License
 
