@@ -132,5 +132,5 @@ This project is under the [MIT license](./LICENSE).
 
 Give a ⭐️ if this project helped you!
 
--- todo: readme
--- todo: new features: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
+# :ballot_box_with_check: To do list
+** New features: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
