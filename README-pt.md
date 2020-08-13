@@ -46,8 +46,8 @@
 * [Funcionalidades](#rocket-features)
 * [Como executar](#construction_worker-how-to-run)
 * [Encontrou um problema?](#bug-issues)
-* [Contribuição](#tada-contributing)
-* [Licença](#closed_book-license)
+* [Contribuição](#tada-contribuição)
+* [Licença](#closed_book-licença)
 
 # :computer: Tecnologias
 Esse projeto was desenvolvido usando as seguintes tecnologias
@@ -65,13 +65,13 @@ Esse projeto was desenvolvido usando as seguintes tecnologias
 # :construction_worker: Como executar
 ```bash
 # Clone o repositório
-$ git clone https://github.com/denismend/nlw02-Proffy.git
+$ git clone https://github.com/denismend/nlw02-proffy.git
 ```
 ### 📦 Execute a API
 
 ```bash
 # Vá para a pasta server
-$ cd Proffy/server
+$ cd nlw02-proffy/server
 
 # Instale as dependências
 $ yarn install
@@ -85,7 +85,7 @@ Acesse a API em http://localhost:3333/
 
 ```bash
 # Vá para a página web
-$ cd Proffy/web
+$ cd nlw02-proffy/web
 
 # Instale as dependências
 $ yarn install
@@ -103,7 +103,7 @@ Para rodar o projeto mobile você precisa de um celular com o expo instlado ou u
 
 ```bash
 # Vá para a pasta mobile
-$ cd Proffy/mobile
+$ cd nlw02-proffy/mobile
 
 # Instale as dependências
 $ yarn install
@@ -118,7 +118,7 @@ Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/deta
 
 Fique a vontade para **criar uma nova issue** com o respectivo titulo e descrição na página de issues do [nlw02-proffy](https://github.com/denismend/nlw02-Proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request!**
 
-# :tada: Contributing
+# :tada: Contribuição
 
 Existem muitos formulários para contribuir com o projeto, primeiro de tudo você pode dar a este repositório github uma estrela.
 
