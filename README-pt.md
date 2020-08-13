@@ -24,9 +24,9 @@
 </p>
 
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="README.md">Inglês</a>
     ·
-    <a href="README-pt.md">Portuguese</a>
+    <a href="README-pt.md">Português</a>
  </p>
 
 <div align="center">
@@ -38,96 +38,122 @@
   </sub>
 </div>
 
+<p align="center">
+  <img src=".github/sample.gif">
+</p>
+
 # :pushpin: Table of Contents
 
-* [Technologies](#computer-technologies)
-* [Features](#rocket-features)
-* [How to Run](#construction_worker-how-to-run)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [Contributing](#tada-contributing)
-* [License](#closed_book-license)
+* [Tecnologias](#computer-technologies)
+* [Funcionalidades](#rocket-features)
+* [Como executar](#construction_worker-how-to-run)
+* [Encontrou um problema?](#bug-issues)
+* [Contribuição](#tada-contributing)
+* [Licença](#closed_book-license)
 
-# :computer: Technologies
-This project was made using the follow technologies:
+# :computer: Tecnologias
+Esse projeto was desenvolvido usando as seguintes tecnologias
 
 * [Typescript](https://www.typescriptlang.org/)      
 * [React](https://reactjs.org/)      
 * [Expo](https://expo.io/)       
 * [Express](https://expressjs.com/)      
 
-# :rocket: Features
+# :rocket: Funcionalidades
 
-* Website to sign up teachers and students.
-* App to connect teachers and students.
+* Website para conectar professores com alunos por matéria e horários.
+* Aplicativo para conectar professores com alunos por matéria e horários.
 
-# :construction_worker: How to run
+# :construction_worker: Como executar
 ```bash
-# Clone Repository
+# Clone o repositório
 $ git clone https://github.com/denismend/nlw02-Proffy.git
 ```
-### 📦 Run API
+### 📦 Execute a API
 
 ```bash
-# Go to server folder
+# Vá para a pasta server
 $ cd Proffy/server
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Execute a aplicação
 $ yarn start
 ```
-Access API at http://localhost:3333/
+Acesse a API em http://localhost:3333/
 
-### 💻 Run Web Project
+### 💻 Execute o projeto web 
 
 ```bash
-# Go to web folder
+# Vá para a página web
 $ cd Proffy/web
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Execute a aplicação
 $ yarn start
 ```
-Go to http://localhost:3000/ to see the result.
+Vá para http://localhost:3000/ no navegador para ver o resultado.
 
-### 📱 Run Mobile Project
-To run the mobile project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
+### 📱 Execute o projeto mobile
+
+Para executar o projeto mobile você ira precisar de um dispositivo/emulador com o aplicativo [expo] (https://play.google.com/store/apps/details?id=host.exp.exponent) instalado.
 <br />
-After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
+Para rodar o projeto mobile você precisa de um celular com o expo instlado ou um emulador android/ios.
 
 ```bash
-# Go to mobile folder
+# Vá para a pasta mobile
 $ cd Proffy/mobile
 
-# Install Dependencies
+# Instale as dependências
 $ yarn install
 
-# Run Aplication
+# Execute a aplicação
 $ yarn start
 ```
-Aferter read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
+Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) ou rode em um emulador.
 
 
-# :bug: Issues
+# :bug: Problemas
 
-Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/denismend/nlw02-Proffy/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Fique a vontade para **criar uma nova issue** com o respectivo titulo e descrição na página de issues do [nlw02-proffy](https://github.com/denismend/nlw02-Proffy/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request!**
 
 # :tada: Contributing
 
-Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+Existem muitos formulários para contribuir com o projeto, primeiro de tudo você pode dar a este repositório github uma estrela.
 
-# :closed_book: License
+Se você quiser ajudar com o código, siga as etapas abaixo
 
-Released in 2020 :closed_book: License
+```ps
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+$ gh repo fork denismend/nlw202-proffy
 
-Made with love by [Denis Ladeira](https://github.com/denismend) 🚀.
-This project is under the [MIT license](./LICENSE).
+# Clone your fork
+$ git clone {your-fork-url}
+$ cd proffy
+
+# Create a branch with your feature
+$ git checkout -b {branch-name}
+
+# Make the commit with your changes
+$ git commit -m 'Feat: {feature-name}'
+
+# Send the code to your remote branch
+$ git push origin {branch-name}
+```
+
+# :closed_book: Licença
+
+Lançado em 2020
+
+Feito com amor por [Denis Ladeira](https://github.com/denismend) 🚀.
+Esse projeto esta sobre [MIT license](./LICENSE).
 
 
 Give a ⭐️ if this project helped you!
 
--- todo: readme
--- todo: new features: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
+# :ballot_box_with_check: Lista de novas funcionalidades para fazer 
+** Novas funcionalidades: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
