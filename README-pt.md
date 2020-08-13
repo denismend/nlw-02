@@ -1,5 +1,3 @@
-:rocket: Next Level Week 02. Rocketseat
-
 <p align="center">
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
