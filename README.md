@@ -66,13 +66,13 @@ This project was made using the follow technologies:
 # :construction_worker: How to run
 ```bash
 # Clone Repository
-$ git clone https://github.com/denismend/nlw02-Proffy.git
+$ git clone https://github.com/denismend/nlw02-proffy.git
 ```
 ### 📦 Run API
 
 ```bash
 # Go to server folder
-$ cd Proffy/server
+$ cd nlw02-proffy/server
 
 # Install Dependencies
 $ yarn install
@@ -86,7 +86,7 @@ Access API at http://localhost:3333/
 
 ```bash
 # Go to web folder
-$ cd Proffy/web
+$ cd nlw02-proffy/web
 
 # Install Dependencies
 $ yarn install
@@ -103,7 +103,7 @@ After, fork this repository and clone to your machine. Inside of the project's f
 
 ```bash
 # Go to mobile folder
-$ cd Proffy/mobile
+$ cd nlw02-proffy/mobile
 
 # Install Dependencies
 $ yarn install
