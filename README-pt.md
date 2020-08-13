@@ -42,10 +42,10 @@
 
 # :pushpin: Table of Contents
 
-* [Tecnologias](#computer-technologies)
-* [Funcionalidades](#rocket-features)
-* [Como executar](#construction_worker-how-to-run)
-* [Encontrou um problema?](#bug-issues)
+* [Tecnologias](#computer-tecnologias)
+* [Funcionalidades](#rocket-funcionalidades)
+* [Como executar](#construction_worker-como-executar)
+* [Encontrou um problema?](#bug-problemas)
 * [Contribuição](#tada-contribuição)
 * [Licença](#closed_book-licença)
 
@@ -127,7 +127,7 @@ Se você quiser ajudar com o código, siga as etapas abaixo
 ```ps
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
-$ gh repo fork denismend/nlw202-proffy
+$ gh repo fork denismend/nlw02-proffy
 
 # Clone your fork
 $ git clone {your-fork-url}
