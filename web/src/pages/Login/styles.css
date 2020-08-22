@@ -1,0 +1,23 @@
+#page-login {
+  width: 100vw;
+  height: 100vh;
+  color: var(--color-text-in-primary);
+  background-color: var(--color-background);
+}
+
+#page-login-content{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+}
+
+#page-login-content .login-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: var(--color-text-in-primary);
+  padding: 1.6rem 0;
+  margin: 8rem 0;
+}
