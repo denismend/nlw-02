@@ -29,7 +29,9 @@
   margin-bottom: 2.4rem;
 }
 
-#form-container form div {
+.login-input-block {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,12 +43,35 @@
   border-radius: 8px 8px 0 0;
 }
 
-#form-container form div:last-child {
+.login-input-block:last-child {
   border-radius: 0 0 8px 8px;
   margin-top: 8px;
 }
 
-#form-container form label {
+.login-input-block input {
+  width: 100%;
+  height: 5.6rem;
+  border-radius: 0.8rem;
+  border: 1px solid #fff;
+  outline: 0;
+  padding: 0 1.6rem;
+  font: 1.6rem Archivo;
+  -webkit-appearance: none !important;
+}
+
+.login-input-block:focus-within::after {
+  width: 2px;
+  height: calc(100% - 2.6rem);
+  content: '';
+  background: var(--color-primary-light);
+  position: absolute;
+  top: 1.3rem;
+  bottom: 1.3rem;
+  left: 0;
+}
+
+
+.login-input-block label {
   font-size: 1.6rem;
   color: var(--color-text-in-primary);
   padding: 0 1.6rem;
@@ -64,13 +89,4 @@
   color: #000;
 }
 
-#form-container form div input {
-  width: 100%;
-  height: 5.6rem;
-  border-radius: 0.8rem;
-  border: 1px solid #fff;
-  outline: 0;
-  padding: 0 1.6rem;
-  font: 1.6rem Archivo;
-  -webkit-appearance: none !important;
-}
+

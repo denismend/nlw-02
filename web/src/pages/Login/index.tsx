@@ -17,11 +17,11 @@ const Login: React.FC = () => {
         <form>
           <h2>Fazer Login</h2>
 
-          <label className={fieldActive ? "field-active" : ""}>Teste</label>
-          <div>
+          <div className="login-input-block">
+            <label className={fieldActive ? "field-active" : ""}>Teste</label>
             <input></input>
           </div>
-          <div>
+          <div className="login-input-block">
             <label>Teste</label>
             <input></input>
           </div>
