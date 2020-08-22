@@ -1,5 +1,3 @@
-:rocket: Next Level Week 02. Rocketseat
-
 <p align="center">
    <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
@@ -19,13 +17,15 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
 </p>
 
-> :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+<p align="center">
+   :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
+</p>
 
 <p align="center">
     <a href="README.md">English</a>
     ·
     <a href="README-pt.md">Portuguese</a>
- </p>
+</p>
 
 <div align="center">
   <sub>The NLW #2 Proffy project. Built with ❤︎ by
@@ -35,6 +35,11 @@
     </a>
   </sub>
 </div>
+
+
+<p align="center">
+  <img src=".github/sample.gif">
+</p>
 
 # :pushpin: Table of Contents
 
@@ -61,13 +66,13 @@ This project was made using the follow technologies:
 # :construction_worker: How to run
 ```bash
 # Clone Repository
-$ git clone https://github.com/denismend/nlw02-Proffy.git
+$ git clone https://github.com/denismend/nlw02-proffy.git
 ```
 ### 📦 Run API
 
 ```bash
 # Go to server folder
-$ cd Proffy/server
+$ cd nlw02-proffy/server
 
 # Install Dependencies
 $ yarn install
@@ -81,7 +86,7 @@ Access API at http://localhost:3333/
 
 ```bash
 # Go to web folder
-$ cd Proffy/web
+$ cd nlw02-proffy/web
 
 # Install Dependencies
 $ yarn install
@@ -98,7 +103,7 @@ After, fork this repository and clone to your machine. Inside of the project's f
 
 ```bash
 # Go to mobile folder
-$ cd Proffy/mobile
+$ cd nlw02-proffy/mobile
 
 # Install Dependencies
 $ yarn install
@@ -115,7 +120,28 @@ Feel free to **file a new issue** with a respective title and description on the
 
 # :tada: Contributing
 
-Check out the [contributing](./CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+There are many forms to contribute with the project, first of all you can give this github repo a Star.
+
+If you want do help with the code follow the steps bellow
+
+```ps
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
+$ gh repo fork denismend/nlw02-proffy
+
+# Clone your fork
+$ git clone {your-fork-url}
+$ cd proffy
+
+# Create a branch with your feature
+$ git checkout -b {branch-name}
+
+# Make the commit with your changes
+$ git commit -m 'Feat: {feature-name}'
+
+# Send the code to your remote branch
+$ git push origin {branch-name}
+```
 
 # :closed_book: License
 
@@ -127,5 +153,5 @@ This project is under the [MIT license](./LICENSE).
 
 Give a ⭐️ if this project helped you!
 
--- todo: readme
--- todo: new features: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
+# :ballot_box_with_check: To do list
+** New features: https://www.notion.so/Vers-o-2-0-Proffy-eefca1b981694cd0a895613bc6235970
