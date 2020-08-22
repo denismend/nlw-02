@@ -5,6 +5,9 @@ import logoImg from '../../assets/images/background.svg';
 import './styles.css';
 
 const Login: React.FC = () => {
+  const fieldActive = true;
+  const fieldActive2 = false;
+
   return (
     <div id="page-login">
       <div id="login-background" />
@@ -14,8 +17,8 @@ const Login: React.FC = () => {
         <form>
           <h2>Fazer Login</h2>
 
+          <label className={fieldActive ? "field-active" : ""}>Teste</label>
           <div>
-            <label className="">Teste</label>
             <input></input>
           </div>
           <div>

@@ -32,24 +32,36 @@
 #form-container form div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: var(--color-box-base);
   width: 350px;
   height: 72px;
 
-}
-
-#form-container form div:first-child {
   border-radius: 8px 8px 0 0;
 }
 
 #form-container form div:last-child {
   border-radius: 0 0 8px 8px;
+  margin-top: 8px;
 }
 
-#form-container form div label {
+#form-container form label {
   font-size: 1.6rem;
   color: var(--color-text-in-primary);
   padding: 0 1.6rem;
+
+  display: inline-block;
+  position:relative;
+  top: 48px;
+  transition: all 150ms ease-in;
+  color: #676767;
+}
+
+.field-active {
+  transform: translateY(-20px);
+  font-size: .9em;
+  color: #000;
 }
 
 #form-container form div input {
@@ -60,4 +72,5 @@
   outline: 0;
   padding: 0 1.6rem;
   font: 1.6rem Archivo;
+  -webkit-appearance: none !important;
 }
