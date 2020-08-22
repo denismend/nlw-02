@@ -7,9 +7,23 @@ import './styles.css';
 const Login: React.FC = () => {
   return (
     <div id="page-login">
-      <div className="login-background" />
+      <div id="login-background" />
 
-      <div className="form-container">
+      <div id="form-container">
+
+        <form>
+          <h2>Fazer Login</h2>
+
+          <div>
+            <label className="">Teste</label>
+            <input></input>
+          </div>
+          <div>
+            <label>Teste</label>
+            <input></input>
+          </div>
+        </form>
+
 
       </div>
     </div>
